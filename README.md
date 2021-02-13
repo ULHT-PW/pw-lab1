@@ -1,12 +1,12 @@
-# PW-Lab1 - Laboratório: Conhecer a Internet com a minha primeira página Web 
+# Laboratório 1: Conhecer a Internet com a minha primeira página Web 
 
 **OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar e reportar todos os aspectos observados numa nova página que deverá criar e carregar igualmente, intitulada de report.html.
 
 **PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML. 
 
-# 1. ALOJAMENTO DE PÁGINA NA CLOUD
+# 1. Alojamento de página Web na cloud
 
-## CRIAÇÃO DE UMA PÁGINA WEB
+## Criação de uma página Web
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML.
 
 ![](index.png =150x)
@@ -18,14 +18,14 @@ Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
 Abra o ficheiro index.html com um Browser para ver se visualiza a imagem em baixo.
 ![](index.png =150x)
 
-## CRIAÇÃO DE REPOSITÓRIO GITHUB
+## Criação de repositório GitHub
 Crie um repositório no GitHub, e faça push dos conteúdos da pasta lab1.
 
-## ALOJAMENTO NO HEROKU
+## Alojamento no Heroku
 Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível a página na cloud. Visualize a sua página no URL disponibilizado.
 
 
-# 2. CONHECER A INTERNET
+# 2. Conhecer a Internet
 
 Vamos entender o modelo cliente-servidor da Internet. O browser do seu computador é o cliente, que faz pedido da página ao servidor Heroku onde está a sua página.
 
@@ -46,12 +46,14 @@ Usando o website https://db-ip.com/, anote os tuplos (cidade,pais) por onde o pa
 Explore também a ferramenta http://en.dnstools.ch/visual-traceroute.html, onde pode ver gráficamente a rota, a partir da Suíça. 
 
 
-# 3. ACESSO HTTP A UMA PÁGINA WEB
+# 3. Acesso via HTTP à minha página Web
 
 ## HTTP
-Web browsers (clientes HTTP) sãplicações que enviam pedidos HTTP a um servidor e recebem uma resposta (arquitetura cliente-servidor). Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização.
+Web browsers (clientes HTTP) são aplicações que, usando o protocolo HTTP, comunicam com servidores na Internet fazendo pedidos de conteúdos ou enviando dados ao servidor. Em resposta a um pedido, o servidor envia uma resposta com conteúdos, o cliente recebendo assim uma resposta ao seu pedido. Esta é a arquitetura cliente-servidor. 
 
-No Chrome, abra a sua página Heroku. Visualise o código fonte, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece, corresponde ao que escreveu!
+Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização.
+
+No Chrome, insira o URL da sua página Heroku. Nesse instante será feito um pedido do conteúdo correspondente a esse URL, que lhe será enviado pelo servidor em modo de resposta. Visualise o código recebido, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece: é o que escreveu!
 
 ## Inspect
 
