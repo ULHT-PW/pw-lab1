@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
 
-# Laboratório 1: Conhecer a Internet com a minha primeira página Web 
+# Programação Web - Laboratório 1: Conhecer a Internet com a minha primeira página Web 
 
 **OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar e reportar todos os aspectos observados numa nova página que deverá criar e carregar igualmente, intitulada de report.html.
 
