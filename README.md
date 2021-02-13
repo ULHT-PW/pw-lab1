@@ -51,7 +51,7 @@ Explore também a ferramenta http://en.dnstools.ch/visual-traceroute.html, onde 
 ## HTTP
 Web browsers (clientes HTTP) são aplicações que, usando o protocolo HTTP, comunicam com servidores na Internet fazendo pedidos de conteúdos ou enviando dados ao servidor. Em resposta a um pedido, o servidor envia uma resposta com conteúdos, o cliente recebendo assim uma resposta ao seu pedido. Esta é a arquitetura cliente-servidor. 
 
-Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização.
+Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização. Com a ferramenta de Snip (Tecla Windows + Shift + S) copie a imagem e guarde-a como um ficheiro jpg ou png.
 
 No Chrome, insira o URL da sua página Heroku. Nesse instante será feito um pedido do conteúdo correspondente a esse URL, que lhe será enviado pelo servidor em modo de resposta. Visualise o código recebido, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece: é o que escreveu!
 
@@ -68,6 +68,11 @@ Nessa mesma página faça agora inspect (botão direito do rato) ou selecione Ct
 
 Faça o mesmo agora para o site da lusófona, observando apenas (sem necessidade de anotar :-)).
 
-# 4. PÁGINA RELATORIO
+# 4. Página
 
-Com base em todas estas observações crie uma nova página HTML onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol).
+Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol). Inclua a imagem da localização do servidor Heroku onde está hospedada a sua página Web. Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. Verifique que ambas as páginas estão operacionais.
+
+
+# 5. Submissão do Laboratório
+No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática.
+Esperamos que tenha gostado de conhecer um pouco da Internet!
