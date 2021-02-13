@@ -9,14 +9,14 @@
 ## Criação de uma página Web
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML.
 
-![](index.png =150x)
+![](index.png)
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
 
-![](wordcloud.png =150x)
+![](wordcloud.png)
 
 Abra o ficheiro index.html com um Browser para ver se visualiza a imagem em baixo.
-![](index.png =150x)
+![](indexRenderizado.png)
 
 ## Criação de repositório GitHub
 Crie um repositório no GitHub, e faça push dos conteúdos da pasta lab1.
