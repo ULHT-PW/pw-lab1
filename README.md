@@ -2,9 +2,9 @@
 
 # Programação Web - Laboratório 1: Conhecer a Internet com a minha primeira página Web 
 
-**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar e reportar todos os aspectos observados numa nova página que deverá criar e carregar igualmente, intitulada de report.html.
+**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar todos os aspectos indicados ao longo do laboratório, que deverá depois descrever numa nova página, report.html, que deverá criar e carregar igualmente.
 
-**PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML. 
+**PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML de forma fácil. Senão, pode usar o Notepad++.
 
 # 1. Alojamento de página Web na cloud
 
@@ -17,7 +17,7 @@ Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
 
 ![](wordcloud.png)
 
-Abra o ficheiro index.html com um Browser para ver se visualiza a imagem em baixo.
+Abra o ficheiro index.html com um Browser para ver se visualiza corretamente a imagem em baixo.
 ![](indexRenderizado.png)
 
 ## Criação de repositório GitHub
@@ -29,52 +29,56 @@ Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar d
 
 # 2. Conhecer a Internet
 
-Vamos entender o modelo cliente-servidor da Internet. O browser do seu computador é o cliente, que faz pedido da página ao servidor Heroku onde está a sua página.
+Vamos explorar alguns aspectos da Internet, a rede de routers e cabos que suporta Web. 
 
 ## Endereços IP
-* Anote qual o endereço IP do seu computador. Pode obter isso de várias formas. A mais simples é perguntar no Google "what is my ip".
-* Anote qual o endereço IP do seu telemóvel.
-* Anote onde está localizado, usando por exemplo a ferramenta https://whatismyipaddress.com/ip-lookup
-* Anote qual o endereço IP da máquina onde está alojada a sua página no Heroku, e onde este está localizado.
-
+1. Obtenha informação sobre o IP do seu PC e seu telemóvel.
+    * obtenha e anote o endereço IP do seu computador. Pode obter isso de várias formas. A mais simples é perguntar no Google "what is my ip". Anote onde está localizado, usando por exemplo a ferramenta https://whatismyipaddress.com/ip-lookup. guarde uma imagem do mapa que localiza.
+    * Obtenha e anote a mesma informação do seu telemóvel, se tiver dados móveis.
+1. Obtenha informação sobre o IP do servidor Heroku onde está a sua app.
+    * Obtenha e anote o endereço IP do servidor Web onde está alojada a sua página no Heroku
+    * anote onde este está localizado, usando a ferramenta https://whatismyipaddress.com/ip-lookup.  Guarde uma imagem do mapa que a localiza.
 
 ## Percurso
-Traceroute (comando tracert) é uma ferramenta de diagnóstico que rastreia a rota que um pacote faz desde o seu computador até ao endereço IP destino. Este identifica os routers pelos quais esse pacote passa até o seu destino, indicando o tempo que demorou a chegar là. 
+Traceroute (comando tracert) é uma ferramenta de diagnóstico que rastreia a rota que os pacotes IP fazem, desde o seu computador até um endereço IP destino/ou URL que especifique. Este identifica os routers pelos quais os pacotes passam até o seu destino, indicando o tempo que demoram por "salto" entre router. 
 
-Abra a linha de comando e escreva tracert e especifique o endereço IP obtido anteriormente:
+1. A forma mais clássica é através da linha de comando e escreva tracert e especifique o endereço IP obtido anteriormente:
 ``> traceroute <endereço IP ou URL sua app>``
-Usando o website https://db-ip.com/, anote os tuplos (cidade,pais) por onde o pacote passou para chegar ao seu destino. 
-
-Explore também a ferramenta http://en.dnstools.ch/visual-traceroute.html, onde pode ver gráficamente a rota, a partir da Suíça. 
-
+1. Use a ferramenta GeoTraceroute, Em https://geotraceroute.com/, para visualizar graficamente por onde passam os pacotes IP, até chegar ao seu servidor Heroku. Escolha como origem (source) Portugal, e como destino o URL do seu site. Registe os saltos, indicando o país, e distância de cada salto. Quando fizer a página, pode procurar na Internet e inserir uma pequena image da bandeira do país. Com a ferramenta de Snip (Tecla Windows + Shift + S) copie a imagem do globo que cubra os saltos dados, e guarde-a como um ficheiro jpg ou png, para inserir também na página report.html.
 
 # 3. Acesso via HTTP à minha página Web
 
 ## HTTP
-Web browsers (clientes HTTP) são aplicações que, usando o protocolo HTTP, comunicam com servidores na Internet fazendo pedidos de conteúdos ou enviando dados ao servidor. Em resposta a um pedido, o servidor envia uma resposta com conteúdos, o cliente recebendo assim uma resposta ao seu pedido. Esta é a arquitetura cliente-servidor. 
 
-Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização. Com a ferramenta de Snip (Tecla Windows + Shift + S) copie a imagem e guarde-a como um ficheiro jpg ou png.
+O protocolo de troca de mensagens entre um cliente e um servidor Web é o HTTP. Um Web browser (Chrome, Safari, Firefox, etc) é uma aplicação que corre numa máquina "cliente" (o seu portátil por exemplo) e é capaz de enviar um pedido usando o protocolo HTTP a um servidor Web:
+* O cliente pode pedir uma determinada página Web através de uma mensagem HTTP GET. O servidor Web irá responder-lhe a esse pedido, enviando os conteúdos correspondentes. Tipicamente é recebido um ficheiro HTML juntamente com algumas imagens e outros ficheiros auxiliares, sendo o browser capaz de representar visualmente o conteúdo. 
+* O cliente pode também enviar ao servidor Web dados que preencheu por exemplo num formulário, através de uma mensagem HTTP POST. 
+Esta é a arquitetura cliente-servidor. 
 
-No Chrome, insira o URL da sua página Heroku. Nesse instante será feito um pedido do conteúdo correspondente a esse URL, que lhe será enviado pelo servidor em modo de resposta. Visualise o código recebido, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece: é o que escreveu!
+No seu browser, insira o URL da sua página Heroku. Nesse instante será feito enviado ao servidor Web um pedido (a mensagem chama-se mensagem HTTP GET) do conteúdo correspondente a esse URL, que lhe será enviado pelo servidor em modo de resposta. Visualise o código recebido, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece: é o que escreveu!
 
 ## Inspect
 
-Nessa mesma página faça agora inspect (botão direito do rato) ou selecione Ctrl+Shift+i. Selecione a barra network. Clique na janela  do seu browser onde está o URL do seu site e faça novamente Enter. Explique o que aparece?
+Todos os browsers têm uma ferramenta (*browser developer tool*) que permite inspeccionar ficheiros descarregados pelo browser, permitindo analisar uma grande variedade de informação.
+USe por exemplo o Chrome para abrir a sua página, e clicando no botão direito do rato, selecione *Inspect*, ou selecione Ctrl+Shift+i.
+
+Selecione a barra network. Clique na janela  do seu browser onde está o URL do seu site e faça novamente Enter: 
+* Explique o que aparece. Com a ferramenta de Snip (Tecla Windows + Shift + S) copie a imagem com info dos ficheiros descarregados. 
 * Anote quantos ficheiros são descarregados na sequencia de um clique num hiperlink.
-* Anote o tipo de ficheiros. 
-* Anote os timings de espera e de descarga.
+* Anote o tipo de ficheiros, timings de espera e de descarga.
 * Selecione cada um dos ficheiros descarregados. Anote o que observa, quando seleciona:
    * preview
    * Headers
    * Timing
 
-Faça o mesmo agora para o site da lusófona, observando apenas (sem necessidade de anotar :-)).
+Faça o mesmo agora para o site da lusófona, mas aqui observando apenas (sem necessidade de anotar, pois a quantidade de informação é muito maior :-)).
 
-# 4. Página
+# 4. Página Web Report.html
 
 Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol). Inclua a imagem da localização do servidor Heroku onde está hospedada a sua página Web. Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. Verifique que ambas as páginas estão operacionais.
 
 
 # 5. Submissão do Laboratório
-No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática.
-Esperamos que tenha gostado de conhecer um pouco da Internet!
+No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
+
+Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet  &#127760;!
