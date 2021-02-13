@@ -47,26 +47,33 @@ Usando o website https://db-ip.com/, anote os tuplos (cidade,pais) por onde o pa
 Explore também a ferramenta http://en.dnstools.ch/visual-traceroute.html, onde pode ver gráficamente a rota, a partir da Suíça. 
 
 
-# 2. ACESSO HTTP A UMA PÁGINA WEB
+# 3. ACESSO HTTP A UMA PÁGINA WEB
 
 ## HTTP
 Web browsers (clientes HTTP) sãplicações que enviam pedidos HTTP a um servidor e recebem uma resposta (arquitetura cliente-servidor). Tipicamente, corresponde ao cliente que navega e pede páginas com conteúdos ao servidor, e recebe e processa as respostas. Existem muitos navegadores tais como Chrome, Firefox, Safari. Recebem ficheiros em formato HTML que conseguem representar visualmente nuam interface gráfica de visualização.
 
-No Chrome, abra a sua página Heroku. Visualise o código fonte, clicando com o botão direito do rato, e selecionando "ver código fonte" (view page source). Verifique, corresponde ao que escreveu!
+No Chrome, abra a sua página Heroku. Visualise o código fonte, clicando com o botão direito do rato e selecionando "ver código fonte" (view page source) ou simplesmente premindo Ctrl + U. Verifique o que aparece, corresponde ao que escreveu!
 
 ## Inspect
 
-Nessa mesma página faça agora inspect (botão direito do rato). Selecione a barra network. Clique num hyperlink do site. Explique o que aparece?
+Nessa mesma página faça agora inspect (botão direito do rato) ou selecione Ctrl+Shift+i. Selecione a barra network. Clique na janela  do seu browser onde está o URL do seu site e faça novamente Enter. Explique o que aparece?
+* Anote quantos ficheiros são descarregados na sequencia de um clique num hiperlink.
+* Anote o tipo de ficheiros. 
+* Anote os timings de espera e de descarga.
+* Selecione cada um dos ficheiros descarregados. Anote o que observa, quando seleciona:
+   * preview
+   * Headers
+   * Timing
 
-Identifique quantos ficheiros são descarregados na sequencia de um clique num hiperlink.
-Identifique o tipo de ficheiros.
-Identifique os timings deespera e de descarga.
-Faça o mesmo para o sitewww.ubi.pt
+Faça o mesmo agora para o site da lusófona, observando apenas (sem necessidade de anotar :-)).
+
+# 4. PÁGINA RELATORIO
+
+Com base em todas estas observações crie uma nova página HTML onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol).
 
 
 
 
-
-Abra a página, e clique no botão direito e selecione Inspect, ou selecione Ctrl+Shift+i.
+Abra a página, e clique no botão direito e selecione Inspect, .
 Explore os vários tabs em cima e tente entender o que estes indicam.
 
