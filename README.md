@@ -2,9 +2,9 @@
 
 # Programação Web - Laboratório 1: Conhecer a Internet com a minha primeira página Web 
 
-**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar todos os aspectos indicados ao longo do laboratório, que deverá depois descrever numa nova página, report.html, que deverá criar e carregar igualmente.
+**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si. Irá  conhecer e analisar vários aspectos ligados com a Internet e o protocolo HTTP, que reportará nova página Web criada por si.
 
-**PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML de forma fácil. Senão, pode usar o Notepad++.
+**PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++.
 
 # 1. Alojamento de página Web na cloud
 
