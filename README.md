@@ -9,7 +9,7 @@
 ## Criação de uma página Web
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML.
 
-![](index.png)
+![](indexHTML.png)
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
 
