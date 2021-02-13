@@ -2,7 +2,7 @@ pandoc --number-sections -t html | pandoc -f html -t markdown
 
 # PW-Lab1
 
-**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos.
+**OBJECTIVO**: Nesta ficha criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si, analisando alguns aspetos. Deverá anotar e reportar todos os aspectos observados numa nova página que deverá criar e carregar igualmente, intitulada de report.html.
 
 **PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML. 
 
@@ -11,13 +11,14 @@ pandoc --number-sections -t html | pandoc -f html -t markdown
 ## CRIAÇÃO DE UMA PÁGINA WEB
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML.
 
-![](index.png)
+![](index.png =150x)
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
 
-![](wordcloud.png)
+![](wordcloud.png =150x)
 
 Abra o ficheiro index.html com um Browser para ver se visualiza a imagem em baixo.
+![](index.png =150x)
 
 ## CRIAÇÃO DE REPOSITÓRIO GITHUB
 Crie um repositório no GitHub, e faça push dos conteúdos da pasta lab1.
@@ -70,10 +71,3 @@ Faça o mesmo agora para o site da lusófona, observando apenas (sem necessidade
 # 4. PÁGINA RELATORIO
 
 Com base em todas estas observações crie uma nova página HTML onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol).
-
-
-
-
-Abra a página, e clique no botão direito e selecione Inspect, .
-Explore os vários tabs em cima e tente entender o que estes indicam.
-
