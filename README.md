@@ -81,4 +81,4 @@ Com base em todas estas observações crie uma nova página HTML, report.html, o
 # 5. Submissão do Laboratório
 No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
 
-Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet  &#127760;!
+Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet e de ter feito a sua primeira página Web &#127760;!
