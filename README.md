@@ -11,7 +11,30 @@
 ## Criação de uma página Web
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: <h1>título</h1> (tamanho de letra grande), a etiqueta <p>um parágrafo<p>, a etiqueta <a>hipperlink</a>, sobre os quais falaremos mais em detalhe nas próximas aulas.
 
-![](indexHTML.png)
+``html
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <title>Primeira página</title>
+</head>
+<body>
+    <h1> Programação Web </h1>
+    <p>Na Unidade Curricular de <a href="https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119">Programação Web</a> abordaremos os princípios básicos associados ao desenvolvimento para a Web, tanto do lado <i>back-end</i> como <i>front-end</i>.</p>
+    <p>Aprenderão as seguintes tecnologias &#127760;:</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>Python</li>
+        <li>Django</li>
+        <li>JavaScript</li>
+    </ul>
+    <p>De forma a consolidar todos os conhecimentos, farão semanalmente um laboratório, na aula prática (de entrega obrigatória) de aplicação da matéria lecionada, e irão implementar um projeto completo.</p>
+
+    <img src="img/wordcloud.png" alt="Programação Web">
+</body>
+</html>
+``
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png em baixo.
 
