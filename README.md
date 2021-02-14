@@ -9,15 +9,15 @@
 # 1. Alojamento de página Web na cloud
 
 ## Criação de uma página Web
-Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML.
+Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: <h1>título</h1> (tamanho de letra grande), a etiqueta <p>um parágrafo<p>, a etiqueta <a>hipperlink</a>, sobre os quais falaremos mais em detalhe nas próximas aulas.
 
 ![](indexHTML.png)
 
-Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png.
+Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png em baixo.
 
 ![](wordcloud.png)
 
-Abra o ficheiro index.html com um Browser para ver se visualiza corretamente a imagem em baixo.
+Uma vez editado, abra o ficheiro index.html com um Browser para ver se visualiza corretamente a imagem em baixo.
 ![](indexRenderizado.png)
 
 ## Criação de repositório GitHub
@@ -75,8 +75,11 @@ Faça o mesmo agora para o site da lusófona, mas aqui observando apenas (sem ne
 
 # 4. Página Web Report.html
 
-Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou. Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol). Inclua a imagem da localização do servidor Heroku onde está hospedada a sua página Web. Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. Verifique que ambas as páginas estão operacionais.
-
+Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou.
+* Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol) (pesquise na internet, nna W3Schools, por exemplo https://www.w3schools.com/tags/tag_ul.asp).
+* Inclua as imagens recolhidas da mesma forma que fez no index.html. 
+* Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. 
+* Verifique que ambas as páginas estão operacionais.
 
 # 5. Submissão do Laboratório
 No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
