@@ -9,7 +9,7 @@
 # 1. Alojamento de página Web na cloud
 
 ## Criação de uma página Web
-Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: <h1>título</h1> (tamanho de letra grande), a etiqueta <p>um parágrafo<p>, a etiqueta <a>hipperlink</a>, sobre os quais falaremos mais em detalhe nas próximas aulas.
+Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: h1 para título (tamanho de letra grande), p para um parágrafo, a para hipperlink, ul para lista não ordenada, sobre os quais falaremos  em detalhe nas próximas aulas.
 
 ```HTML
 <!DOCTYPE html>
