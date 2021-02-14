@@ -39,7 +39,7 @@ Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguin
 
 O HTML é uma linguagem de marcação para construir páginas Web. OS ficheiros HTML possuem marcadores (*tags*), palavras entre parênteses angulares (< e >) que são comandos de formação da linguagem. 
 
-No elemento <title>Primeira página</title>:
+No elemento `<title>Primeira página</title>`:
 * <title> é o marcador de abertura
 * </title> é o marcador de fecho
 Neste caso, o comando de marcação afetará a frase Primeira página´, que especificará o título da barra de navegação.
