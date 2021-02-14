@@ -44,10 +44,13 @@ Uma vez editado, abra o ficheiro index.html com um Browser para ver se visualiza
 ![](indexRenderizado.png)
 
 ## Criação de repositório GitHub
-Crie um repositório no GitHub, e faça push dos conteúdos da pasta lab1.
+Crie um repositório no GitHub para o lab1, e faça push da pasta lab1.
 
 ## Alojamento no Heroku
-Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível a página na cloud. Visualize a sua página no URL disponibilizado.
+Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta lab1 com seus conteúdos. Atenção que, se a sua app se chamar mariasantosheroku,
+
+
+Visualize a sua página no URL disponibilizado.
 
 
 # 2. Conhecer a Internet
