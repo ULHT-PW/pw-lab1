@@ -41,7 +41,7 @@ Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png 
 ![](wordcloud.png)
 
 Uma vez editado, abra o ficheiro index.html com um Browser para ver se visualiza corretamente a imagem em baixo.
-![](indexRenderizado.png)
+![](index-renderizado.png)
 
 ## Criação de repositório GitHub
 Crie um repositório no GitHub para o lab1, e faça push da pasta lab1.
