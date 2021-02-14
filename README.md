@@ -9,7 +9,7 @@
 # 1. Alojamento de página Web na cloud
 
 ## Criação de uma página Web
-Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. O HTL é baseado em elementos delimitados por marcadores/*tags* que indicam o texto que será afectado por uma determinada propriedade, por exemplo <title>Titulo da pagina</title>. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: h1 para título (tamanho de letra grande), p para um parágrafo, a para hipperlink, ul para lista não ordenada, sobre os quais falaremos  em detalhe nas próximas aulas.
+Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. 
 
 ```HTML
 <!DOCTYPE html>
@@ -31,10 +31,30 @@ Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguin
     </ul>
     <p>De forma a consolidar todos os conhecimentos, farão semanalmente um laboratório, na aula prática (de entrega obrigatória) de aplicação da matéria lecionada, e irão implementar um projeto completo.</p>
 
-    <img src="img/wordcloud.png" alt="Programação Web">
+    <img src="img/wordcloud.png">
 </body>
 </html>
 ```
+
+
+O HTML é uma linguagem de marcação para construir páginas Web. OS ficheiros HTML possuem marcadores (*tags*), palavras entre parênteses angulares (< e >) que são comandos de formação da linguagem. 
+
+No elemento <title>Primeira página</title>:
+* <title> é o marcador de abertura
+* </title> é o marcador de fecho
+Neste caso, o comando de marcação afetará a frase Primeira página´, que especificará o título da barra de navegação.
+
+No ficheiro em cima poderá ver a utilização de vários marcadores:
+* h1 = marcador que define um título (h1 um subtítulo, h3 ...)
+* p = marcador que define um parágrafo
+* ul = marcador que define uma lista não numerada
+* li = marcador que define uma linha
+* img = marcador que define uma imagem
+
+Dentro de um marcador podem ser especificados pares de atributo = valor. Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Existem neste ficheiro os seguintes atributos:
+* src = atributo que define o nome do ficheiro com a imagem
+* href = atributo que define o URL da hiperligação
+Nas próximas aulas falaremos mais em detalhe destes aspectos.
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png em baixo.
 
