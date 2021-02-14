@@ -11,7 +11,7 @@
 ## Criação de uma página Web
 Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguinte código fonte HTML. Neste ficheiro poderá ver a utilização de algumasetiquetas (tags) que especificam formatações específicas: <h1>título</h1> (tamanho de letra grande), a etiqueta <p>um parágrafo<p>, a etiqueta <a>hipperlink</a>, sobre os quais falaremos mais em detalhe nas próximas aulas.
 
-``html
+```HTML
 <!DOCTYPE html>
 <html lang="pt">
 <head>
@@ -34,7 +34,7 @@ Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro index.html com o seguin
     <img src="img/wordcloud.png" alt="Programação Web">
 </body>
 </html>
-``
+```
 
 Crie, na pasta lab1, a pasta img, e guarde dentro desta a imagem  wordcloud.png em baixo.
 
