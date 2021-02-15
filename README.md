@@ -67,7 +67,14 @@ Uma vez editado, abra o ficheiro `index.html` com um Browser para ver se visuali
 Crie um repositório no GitHub `pw-lab1`, e faça push da pasta `lab1`.
 
 ## Alojamento no Heroku
-Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `lab1` com seus conteúdos. Atenção que, se a sua app se chamar mariasantosheroku,
+Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `lab1` com seus conteúdos. 
+De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguintes passos:
+* Criar conta no Heroku - https://signup.heroku.com/login 
+* Criar uma aplicação, atribuindo-lhe um nome
+* Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
+* Na secção de `Deploy Method` devem conectar a aplicação com o Github
+* Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
+* Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
 
 
 Visualize a sua página no URL disponibilizado.
