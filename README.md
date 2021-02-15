@@ -42,7 +42,7 @@ O HTML é uma linguagem de marcação para construir páginas Web. OS ficheiros 
 No elemento `<title>Primeira página</title>`:
 * `<title>` é o marcador de abertura
 * `</title>` é o marcador de fecho
-Neste caso, o comando de marcação afetará a frase Primeira página, que especificará o título da barra de navegação.
+* `Primeira página` será o conteúdo afetado pelo marcador, que neste caso especificará o título da barra de navegação.
 
 No ficheiro em cima poderá ver a utilização de vários marcadores:
 * `h1` = marcador que define um titulo - heading1 (`h2` um subtítulo, `h3` um subsubtítulo, ...)
