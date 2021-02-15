@@ -134,6 +134,16 @@ Com base em todas estas observações crie uma nova página HTML, report.html, o
 * Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. 
 * Verifique que ambas as páginas estão operacionais.
 
+A estrutura das pastas deverá ser como em baixo (com mais imagens na pasta img):
+```
+projeto
++-- lab1
+|   +-- index.html
+|   +-- report.html
+|   +-- img
+    |   +-- wordcloud.png
+```
+
 # 5. Submissão do Laboratório
 No Moodle, submeta o link da sua aplicação antes da sua próxima aula prática, onde este será avaliado. 
 
