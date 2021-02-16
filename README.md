@@ -69,6 +69,11 @@ Crie um repositório no GitHub `pw-lab1`, e faça push da pasta `lab1`.
 ## Alojamento no Heroku
 Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `lab1` com seus conteúdos. 
 De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguintes passos:
+* Adicionar dois ficheiros na diretoria `root` da pasta
+* * index.php
+* * * Com o seguinte conteúdo: `<?php include_once("index.html")  ?>`
+* * composer.json
+* * * Com o seguinte conteúdo: `{}`
 * Criar conta no Heroku - https://signup.heroku.com/login 
 * Criar uma aplicação, atribuindo-lhe um nome
 * Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
@@ -77,7 +82,6 @@ De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguint
 * Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
 
 
-Visualize a sua página no URL disponibilizado.
 
 
 # 2. Conhecer a Internet
