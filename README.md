@@ -63,7 +63,7 @@ Crie, na pasta `lab1`, a pasta `img`, e guarde dentro desta a imagem  `wordcloud
 Uma vez editado, abra o ficheiro `index.html` com um Browser para ver se visualiza corretamente a imagem em baixo.
 ![](index-renderizado.png)
 
-## Criação de repositório GitHub
+## Criacao de repositorio GitHub
 Crie um repositório no GitHub `pw-lab1`, e faça push da pasta `lab1`.
 
 ## Alojamento no Heroku
