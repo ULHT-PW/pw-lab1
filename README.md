@@ -152,6 +152,8 @@ projeto
 ```
 
 # 5. Submissão do Laboratório
-Submeta o link da sua aplicação [aqui](https://drive.google.com/file/d/1kphRYAo78NSxWznBXHqNbPksELqlyloI/view) (procurando pelo seu nome na sua turma) antes da sua próxima aula prática, onde este será avaliado. 
+* Submeta neste [link](https://forms.gle/yTsVwecqnvaTNtWKA) o seu laboratório.
+* Deverá fazer esta tarefa antes da sua próxima aula prática, onde este será avaliado. 
 
+# Fim
 Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet e de ter feito a sua primeira página Web &#127760;!
