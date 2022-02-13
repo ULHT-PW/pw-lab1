@@ -49,9 +49,10 @@ No elemento `<title>Primeira página</title>`:
 No ficheiro em cima poderá ver a utilização de vários marcadores:
 * `h1` = marcador que define um titulo - heading1 (`h2` um subtítulo, `h3` um subsubtítulo, ...)
 * `p` = marcador que define um parágrafo
-* `u` = marcador que define uma lista não numerada
+* `ul` = marcador que define uma lista não numerada (`ol` para lista numerada)
 * `li` = marcador que define uma linha
 * `img` = marcador que define uma imagem
+* `a` = marcador de âncora para hiperlink, especificado como valor do atributo `href` 
 
 Dentro de um marcador podem ser especificados pares de atributo = valor. Os atributos modificam os resultados padrões dos elementos e os valores caracterizam essa mudança. Existem neste ficheiro os seguintes atributos:
 * `src` = atributo que define o nome do ficheiro com a imagem
