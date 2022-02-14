@@ -3,9 +3,10 @@
 # Programação Web - Laboratório 1: Conhecer a Internet com a minha primeira página Web 
 
 **OBJECTIVO**: Nesta ficha:
-* criará uma página na Web e disponibilizá-la-á num servidor na nuvem, numa conta criada por si. 
+* criará uma primeira página na Web. 
 * Irá conhecer e analisar vários aspectos ligados com a Internet e o protocolo HTTP, que reportará numa nova página Web criada por si.
-
+* Disponibilizará s páginas num servidor na nuvem, numa conta criada por si
+  
 **PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++.
 
 # 1. Alojamento de página Web na cloud
@@ -73,10 +74,8 @@ Crie um repositório no GitHub `pw-lab1`, e faça push da pasta `lab1`.
 Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `lab1` com seus conteúdos. 
 De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguintes passos:
 * Adicionar dois ficheiros na diretoria `root` da pasta
-* * index.php
-* * * Com o seguinte conteúdo: `<?php include_once("index.html")  ?>`
-* * composer.json
-* * * Com o seguinte conteúdo: `{}`
+* * `index.php` Com o seguinte conteúdo: `<?php include_once("index.html")  ?>`
+* * `composer.json` com o seguinte conteúdo: `{}`
 * Criar conta no Heroku - https://signup.heroku.com/login 
 * Criar uma aplicação, atribuindo-lhe um nome
 * Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
