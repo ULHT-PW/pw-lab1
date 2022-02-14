@@ -60,7 +60,7 @@ Dentro de um marcador podem ser especificados pares de atributo = valor. Os atri
 * `href`= atributo que define o URL da hiperligação
 Nas próximas aulas falaremos mais em detalhe destes aspectos.
 
-Crie, na pasta `lab1`, a pasta `img`, e guarde dentro desta a imagem  `wordcloud.png` em baixo.
+Crie, na pasta `lab1`, a pasta `images`, e guarde dentro desta a imagem  `wordcloud.png` em baixo.
 
 ![](wordcloud.png)
 
@@ -136,7 +136,7 @@ Faça o mesmo agora para o site da lusófona, mas aqui observando apenas (sem ne
 
 Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou.
 * Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol) (pesquise na internet, nna W3Schools, por exemplo https://www.w3schools.com/tags/tag_ul.asp).
-* Inclua as imagens recolhidas da mesma forma que fez no index.html. 
+* Inclua as imagens recolhidas da mesma forma que fez no index.html, na pasta `images`. 
 * Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. 
 * Verifique que ambas as páginas estão operacionais.
 
@@ -146,7 +146,7 @@ projeto
 +-- lab1
 |   +-- index.html
 |   +-- report.html
-|   +-- img
+|   +-- images
     |   +-- wordcloud.png
 ```
 
