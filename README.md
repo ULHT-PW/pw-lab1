@@ -7,7 +7,7 @@
 * Irá conhecer e analisar vários aspectos ligados com a Internet e o protocolo HTTP, que reportará numa nova página Web criada por si.
 * Disponibilizará s páginas num servidor na nuvem, numa conta criada por si
   
-**PRÉ-REQUISITOS**: Instale o VS Code para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++.
+**PRÉ-REQUISITOS**: Instale o PyCharm, IDE que utilizaremos nesta disciplina, para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++.
 
 # 1. Alojamento de página Web na cloud
 
