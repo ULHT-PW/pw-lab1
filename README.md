@@ -80,11 +80,23 @@ De forma a que o alojamento na cloud funcione com sucesso deve seguir os seguint
 ```
   
 * Crie uma conta no Heroku, https://signup.heroku.com/login 
-* Crie uma aplicação, atribuindo-lhe como nome o seu <seuNumero>-pw
-* Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
-* Na secção de `Deployment Method` conectar a aplicação com o Github
-* Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
-* Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
+* Duas opções para alojar a sua página no Heroku:
+* usando CLI:
+  * instale o [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#install-with-an-installer) (Command Line Interface)
+  * execute os seguintes comandos:
+  
+```bash
+  heroku login
+  heroku create -a <seuNumero>-pw-lab1
+  git push heroku main  
+```
+  
+  * conecte o Heroku com o GitHub:
+     * Na conta Heroku, crie uma aplicação, atribuindo-lhe como nome o seu <seuNumero>-pw-lab1
+     * Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
+     * Na secção de `Deployment Method` conectar a aplicação com o Github
+     * Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
+     * Um vez realizado com sucesso, clicar no botão `Open app` no topo da página, e visualizar a página HTML 
 
 
 
@@ -95,7 +107,7 @@ Vamos explorar alguns aspectos da Internet, a rede de routers e cabos que suport
 
 ## Endereços IP
 1. Obtenha informação sobre o IP do seu PC e seu telemóvel.
-    * obtenha e anote o endereço IP do seu computador. Pode obter isso de várias formas. A mais simples é perguntar no Google "what is my ip". Anote onde está localizado, usando por exemplo a ferramenta https://whatismyipaddress.com/ip-lookup. guarde uma imagem do mapa que localiza.
+    * obtenha e anote o endereço IP do seu computador. Pode obter isso de várias formas. A mais simples é perguntar no Google "what is my ip". Anote onde está localizado, usando por exemplo a ferramenta https://whatismyipaddress.com/ip-lookup. Observe o mapa, fazendo zoom o máximo que conseguir para verificar o grau de exatidão. guarde uma imagem do mapa que localiza (faça Tecla Windows+Shift+S para usar a Snipping Tool).
     * Obtenha e anote a mesma informação do seu telemóvel, se tiver dados móveis.
 1. Obtenha informação sobre o IP do servidor Heroku onde está a sua app.
     * Obtenha e anote o endereço IP do servidor Web onde está alojada a sua página no Heroku
@@ -105,7 +117,7 @@ Vamos explorar alguns aspectos da Internet, a rede de routers e cabos que suport
 Traceroute (comando tracert) é uma ferramenta de diagnóstico que rastreia a rota que os pacotes IP fazem, desde o seu computador até um endereço IP destino/ou URL que especifique. Este identifica os routers pelos quais os pacotes passam até o seu destino, indicando o tempo que demoram por "salto" entre router. 
 
 1. A forma mais clássica é através da linha de comando e escreva tracert e especifique o endereço IP obtido anteriormente:
-``> traceroute <endereço IP ou URL sua app>``
+``> tracert <endereço IP ou URL sua app>``. guarde esta informação.
 1. Use a ferramenta GeoTraceroute, Em https://geotraceroute.com/, para visualizar graficamente por onde passam os pacotes IP, até chegar ao seu servidor Heroku. Escolha como origem (source) Portugal, e como destino o URL do seu site. Registe os saltos, indicando o país, e distância de cada salto. Quando fizer a página, pode procurar na Internet e inserir uma pequena image da bandeira do país. Com a ferramenta de Snip (Tecla Windows + Shift + S) copie a imagem do globo que cubra os saltos dados, e guarde-a como um ficheiro jpg ou png, para inserir também na página report.html.
 
 # 3. Acesso via HTTP à minha página Web
