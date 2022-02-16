@@ -1,6 +1,6 @@
 **UNIVERSIDADE LUSÓFONA DE HUMANIDADES E TECNOLOGIAS**
 
-# Programação Web - Laboratório 1: Conhecer a Internet com a minha primeira página Web 
+# Programação Web - Laboratório 1: <br>*Conhecer a Internet com a minha primeira página Web*
 
 **OBJECTIVO**: Nesta ficha:
 * criará uma primeira página na Web. 
