@@ -48,7 +48,8 @@ Uma vez editado, abra o ficheiro `index.html` com um Browser para ver se visuali
 
 ## Criacao de repositorio GitHub
 * Crie, na sua conta GitHub, o repositório `pw-lab1`
-* abra uma janela de comandos e defina a sua identidade para o git:
+* Caso não tenha, descarregue de www.git-scm.com o git e instale-oadd.
+* abra uma janela de comandos (pode usar o Terminar do Pycharm) e defina a sua identidade para o git, caso não o tenha feito em LP2:
 ```bash
 > git config --global user.name "username_usado_no_git"
 > git config --global user.email "iniciais@meuemail.pt"
@@ -59,7 +60,7 @@ Uma vez editado, abra o ficheiro `index.html` com um Browser para ver se visuali
 > git add *   #indica ao git para rastrear todos os ficheiros
 > git commit -m "Primeira pagina"   # guarda mudanças no git
 > git branch –M main
-> git remote add origin https://github.com/<username>/<pw-lab1.git> # Adiciona o endereco do repo do git
+> git remote add origin https://github.com/<username>/pw-lab1 # Adiciona o endereco do repo do git
 > git push -u origin main # carrega e atualiza repo do GitHub
 ```
 Verifique que os dados estão noGitHub.
@@ -78,10 +79,10 @@ De forma a que o alojamento na cloud funcione com sucesso deve seguir os seguint
 > git push -u origin main
 ```
   
-  * Crie conta no Heroku - https://signup.heroku.com/login 
-* Criar uma aplicação, atribuindo-lhe um nome
+* Crie uma conta no Heroku, https://signup.heroku.com/login 
+* Crie uma aplicação, atribuindo-lhe como nome o seu <seuNumero>-pw
 * Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
-* Na secção de `Deploy Method` devem conectar a aplicação com o Github
+* Na secção de `Deployment Method` conectar a aplicação com o Github
 * Navegando até ao fim da página, até à secção `Manual deploy`, devem escolher o branch indicado do repositório e clicar em `Deploy branch`
 * Um vez realizado com sucesso, devem clicar no botão `Open app` no topo da página, e visualizar a página HTML 
 
