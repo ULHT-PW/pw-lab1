@@ -12,32 +12,11 @@
 # 1. Alojamento de página Web na cloud
 
 ## Criação de uma página Web
-Crie uma pasta lab1. Dentro dessa pasta, crie o ficheiro `index.html` com o seguinte código fonte HTML. 
+* Crie uma pasta lab1. 
+* Abra a pasta com o PyCharm
+* Dentro dessa pasta, crie o ficheiro `index.html` com o seguinte código fonte HTML; 
 
-```HTML
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-    <meta charset="UTF-8">
-    <title>Primeira página</title>
-</head>
-<body>
-    <h1> Programação Web </h1>
-    <p>Na Unidade Curricular de <a href="https://secure.grupolusofona.pt/ulht/moodle/course/view.php?id=38119">Programação Web</a> abordaremos os princípios básicos associados ao desenvolvimento para a Web, tanto do lado <i>back-end</i> como <i>front-end</i>.</p>
-    <p>Aprenderão as seguintes tecnologias &#127760;:</p>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Python</li>
-        <li>Django</li>
-        <li>JavaScript</li>
-    </ul>
-    <p>De forma a consolidar todos os conhecimentos, farão semanalmente um laboratório, na aula prática (de entrega obrigatória) de aplicação da matéria lecionada, e irão implementar um projeto completo.</p>
-
-    <img src="img/wordcloud.png">
-</body>
-</html>
-```
+![image](https://user-images.githubusercontent.com/42048382/154178599-55386ae4-f531-4b77-a50f-c583090e5696.png)
 
 
 O HTML é uma linguagem de marcação para construir páginas Web. OS ficheiros HTML possuem marcadores (*tags*), palavras entre parênteses angulares (`<` e `>`) que são comandos de formação da linguagem. 
@@ -45,7 +24,7 @@ O HTML é uma linguagem de marcação para construir páginas Web. OS ficheiros 
 No elemento `<title>Primeira página</title>`:
 * `<title>` é o marcador de abertura
 * `</title>` é o marcador de fecho
-* `Primeira página` será o conteúdo afetado pelo marcador, que neste caso especificará o título da barra de navegação.
+* `Primeira página` será o conteúdo afetado pelo marcador <title>, que neste caso especificará o título da barra de navegação.
 
 No ficheiro em cima poderá ver a utilização de vários marcadores:
 * `h1` = marcador que define um titulo - heading1 (`h2` um subtítulo, `h3` um subsubtítulo, ...)
@@ -68,15 +47,38 @@ Uma vez editado, abra o ficheiro `index.html` com um Browser para ver se visuali
 ![](index-renderizado.png)
 
 ## Criacao de repositorio GitHub
-Crie um repositório no GitHub `pw-lab1`, e faça push da pasta `lab1`.
-
-## Alojamento no Heroku
-Crie uma conta no Heroku. Sincronize o GitHub com o Heroku, de forma a colocar disponível na cloud a pasta `lab1` com seus conteúdos. 
-De forma a conseguirem o alojamento na cloud com sucesso devem seguir os seguintes passos:
-* Adicionar dois ficheiros na diretoria `root` da pasta
+* Crie, na sua conta GitHub, o repositório `pw-lab1`
+* abra uma janela de comandos e defina a sua identidade para o git:
+```bash
+> git config --global user.name "username_usado_no_git"
+> git config --global user.email "iniciais@meuemail.pt"
+```
+* Na pasta lab1 execue os seguintes comandos (# indica início de um comentário, que não deverá escrever):
+```bash
+> git init  # cria repositório git
+> git add *   #indica ao git para rastrear todos os ficheiros
+> git commit -m "Primeira pagina"   # guarda mudanças no git
+> git branch –M main
+> git remote add origin https://github.com/<username>/<pw-lab1.git> # Adiciona o endereco do repo do git
+> git push -u origin main # carrega e atualiza repo do GitHub
+```
+Verifique que os dados estão noGitHub.
+  
+  
+## Alojamento da sua página na Cloud
+Crie uma conta no [Heroku}(https://www.heroku.com/), plataforma para alojamento de aplicações na cloud. 
+De forma a que o alojamento na cloud funcione com sucesso deve seguir os seguintes passos:
+* Crie dois ficheiros novos na pasta pw-lab1:
 * * `index.php` Com o seguinte conteúdo: `<?php include_once("index.html")  ?>`
 * * `composer.json` com o seguinte conteúdo: `{}`
-* Criar conta no Heroku - https://signup.heroku.com/login 
+* Sincronize o git e Github com as alterações, com os seguintes comandos:
+```bash
+> git add *   #indica ao git para rastrear todos os ficheiros, incluindo os novos
+> git commit -m "incluidos ficheiros para Heroku"
+> git push -u origin main
+```
+  
+  * Crie conta no Heroku - https://signup.heroku.com/login 
 * Criar uma aplicação, atribuindo-lhe um nome
 * Entrar nas definições da aplicação criada, e clicar na tab `Deploy`
 * Na secção de `Deploy Method` devem conectar a aplicação com o Github
