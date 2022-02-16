@@ -103,7 +103,7 @@ De forma a que o alojamento na cloud funcione com sucesso deve seguir os seguint
 
 # 2. Conhecer a Internet
 
-Vamos explorar alguns aspectos da Internet, a rede de routers e cabos que suporta Web. 
+Vamos explorar alguns aspectos da Internet, a rede de routers e cabos que suportam Web. Deverá anotar e guardar um conjunto de imagens de todos os passos que são indicados em baixo, que serão usados no final para criar uma nova página HTML.
 
 ## Endereços IP
 1. Obtenha informação sobre o IP do seu PC e seu telemóvel.
@@ -147,27 +147,46 @@ Selecione a barra network. Clique na janela  do seu browser onde está o URL do 
 
 Faça o mesmo agora para o site da lusófona, mas aqui observando apenas (sem necessidade de anotar, pois a quantidade de informação é muito maior :-)).
 
-# 4. Página Web Report.html
+# 4. Página Web `report.html`
 
-Com base em todas estas observações crie uma nova página HTML, report.html, onde reporte tudo o que observou.
+Com base em todas estas observações crie uma nova página HTML, `report.html`, onde reporte tudo o que observou. Seja criativo e divirta-se! Crie secções semelhantes às anteriores, inclua a informação/imagens obtidas e faça uma análise crítica do que observa.
+  
+Para fazer a nova página:
+* Deverá ter uma estrutura base semelhante a `index.html`, alterando o ceontúdo do `body` e do `title`.
 * Utilize etiquetas para estruturar o seu conteúdo, etiquetas de heading (h1, h2, h3, ....), assim como para listar (ul) e enumerar (ol) (pesquise na internet, nna W3Schools, por exemplo https://www.w3schools.com/tags/tag_ul.asp).
-* Inclua as imagens recolhidas da mesma forma que fez no index.html, na pasta `images`. 
-* Faça upload para o seu repositório no GitHub, e sincronize com o Heroku. 
-* Verifique que ambas as páginas estão operacionais.
-
-A estrutura das pastas deverá ser como em baixo (com mais imagens na pasta img):
+* Dentro do body, comece com um titulo `<h1>A Internet e a Web</h1>`
+* por baixo do titulo da pagina report.html e da index.html insira um menu, palavras com hiperlinks para cada uma das páginas:
+```html
+    <p><a href="index.html">Programação Web</a>  <a href="report.html">A Internet e a Web</a></p>
+```
+* Guarde as imagens recolhidas na pasta `images`. 
+* Abra num browser a pagina report.html e verifique que está tudo bem, e que os links do menu funcionam.
+* A estrutura das pastas deverá ser como em baixo (com mais imagens na pasta img):
 ```
 projeto
 +-- lab1
 |   +-- index.html
 |   +-- report.html
+|   +-- index.php
+|   +-- composer.json  
 |   +-- images
     |   +-- wordcloud.png
+    |   +-- ...
 ```
+
+* Guarde as alterações no git, faça upload para o seu repositório no GitHub, e sincronize com o Heroku: 
+```
+> git add *   
+> git commit -m "criei a pagina report.html"
+> git push -u origin main
+> git push heroku main  
+```  
+* Verifique que ambas as páginas estão operacionais no Heroku.
+
 
 # 5. Submissão do Laboratório
 * Submeta neste [link](https://forms.gle/yTsVwecqnvaTNtWKA) o seu laboratório.
 * Deverá fazer esta tarefa antes da sua próxima aula prática, onde este será avaliado. 
 
 # Fim
-Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet e de ter feito a sua primeira página Web &#127760;!
+Parabéns por ter chegado ao fim! Esperamos que tenha gostado de conhecer um pouco do funcionamento da Internet e de ter feito a sua primeira página Web &#127760;!
