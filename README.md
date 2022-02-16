@@ -4,8 +4,9 @@
 
 **OBJECTIVO**: Nesta ficha:
 * criará uma primeira página na Web. 
-* Irá conhecer e analisar vários aspectos ligados com a Internet e o protocolo HTTP, que reportará numa nova página Web criada por si.
-* Disponibilizará s páginas num servidor na nuvem, numa conta criada por si
+* Irá conhecer e analisar vários aspectos ligados com a Internet e o protocolo HTTP
+* Criará uma segunda páagina onde reportará tudo o que observou.
+* O seu website ficará online num servidor na nuvem, numa conta criada por si!
   
 **PRÉ-REQUISITOS**: Instale o PyCharm, IDE que utilizaremos nesta disciplina, para editar o código HTML de forma fácil. Senão, pode sempre usar o Notepad++.
 
