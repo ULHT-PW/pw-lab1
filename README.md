@@ -186,6 +186,7 @@ projeto
 
 
 # 5. Submissão do Laboratório
+* no seu repositorio,crie um ficheiro README.md com o link para o seu website a correr no Heroku
 * Submeta neste [link](https://forms.gle/yTsVwecqnvaTNtWKA) o seu laboratório.
 * Deverá fazer esta tarefa antes da sua próxima aula prática, onde este será avaliado. 
 
